@@ -1,0 +1,7 @@
+interface:
+  display_name: "推文撰写与秀米排版"
+  short_description: "按栏目撰写审阅推文，逐段完成秀米配图、配色和滑动，核验保存结果并沉淀经验"
+  default_prompt: "使用 $xiumi-article-layout，按本次范围完成推文撰写、审阅或秀米排版，核验文字、配图、格式与保存结果，并整理新经验。"
+
+policy:
+  allow_implicit_invocation: true

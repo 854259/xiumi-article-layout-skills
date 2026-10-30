@@ -1,0 +1,39 @@
+name: 问题与解法
+description: 分享推文撰写或排版中的真实问题及经过验证的解决办法
+title: "[经验] "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: 场景与环境
+      description: 文章类型、平台、工具和发生日期；采用通用描述。
+    validations:
+      required: true
+  - type: textarea
+    id: symptom
+    attributes:
+      label: 实际现象
+      description: 当前状态、预期结果和观察到的反馈。
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 处理步骤
+      description: 写清有效步骤、关键选择层级与必要判断。
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: 验证结果与适用边界
+      description: 实际完成的核验、成立条件及待验证部分。
+    validations:
+      required: true
+  - type: checkboxes
+    id: sharing
+    attributes:
+      label: 公开内容检查
+      options:
+        - label: 我已检查提交内容，使用的是适合公开的通用方法与脱敏示例。
+          required: true
