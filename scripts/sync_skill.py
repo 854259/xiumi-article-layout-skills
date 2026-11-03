@@ -24,6 +24,7 @@ RUNTIME_FILES = (
     "references/ui-workflow.md",
     "references/color-and-recovery.md",
     "references/learning-loop.md",
+    "references/deepseek-harness.md",
     "scripts/sync_skill.py",
 )
 PUBLIC_FILES = RUNTIME_FILES + (

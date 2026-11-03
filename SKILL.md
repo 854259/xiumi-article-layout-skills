@@ -11,6 +11,7 @@ description: 用户要求撰写、审阅或修改公众号推文，排推文、�
 
 ## 按任务读取
 
+- 使用 DeepSeek Harness：[接入与验收](references/deepseek-harness.md)。先核对技能发现；涉及在线排版时，再核对浏览器工具和真实截图输入。
 - 撰写、审阅、改稿：[撰写与审阅](references/writing-and-review.md)。先选体裁和同栏目范例，再形成主线、段落和文图计划。
 - 选模板、逐段编辑、格式、上传和滑动：[秀米界面技巧](references/ui-workflow.md)。其中滑动包含容器定位、加页、逐页换图和双向核验。
 - 连接恢复、复杂配色、渐变、标题描边及预览：[配色与恢复案例](references/color-and-recovery.md)。按当前现象读取相应案例。

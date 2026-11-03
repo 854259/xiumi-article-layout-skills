@@ -14,6 +14,8 @@
 
 ## 使用
 
+DeepSeek Harness 的桌面版和 Web 版可读取本技能；浏览器操作通过 MCP 接入。安装目录、配置示例、视觉模型要求及分层验收见 [Harness 接入说明](references/deepseek-harness.md)。实际排版效果按当前环境单独验证。
+
 将仓库内容放入个人 skills 目录下的 `xiumi-article-layout` 文件夹，确保 `SKILL.md`、`agents/` 和 `references/` 层级保持完整；已有同名技能先检查差异并保存当前版本。安装位置采用所用AI工具的实际配置。
 
 支持显式调用 `$xiumi-article-layout`，并在支持技能自动发现的环境中保留自然语言调用。示例：
